@@ -109,8 +109,42 @@ To be completed
 
 
 \section{Assignment Workflows}
-To be completed  
+Captain Teach is designed to be used on assignments which have multiple
+deliverables. Each deliverable is decomposed into a submission step typically
+followed by a student reviewing one or more other submissions before being
+allowed to submit their next deliverable. This gives the student an
+opportunity to see how others have approached the same problem and possibly
+catching mistakes and misunderstandings prior to submitting their completed
+assignment.
 
+\subsection{Authoring an Assignment}
+To accommodate various assignment workflows that an instructor might want to use
+in their course, Captain Teach provides a YAML based assignment configuration 
+format where an instructor specifies a sequential list of submission steps for 
+their  assignment. For each step an instructor may specify that a 
+student must complete one or more reviews before submitting the next deliverable.
+These reviews may be of others students deliverables for the associated step or 
+an instructor provided deliverable. An instructor provided review might be a
+known good or bad solution of the current step or simply a mid-assignment 
+survey for students to complete. Finally, the instructor is able to provide
+customized rubrics for each of the reviews.
+
+(TODO: Add in figure showing authoring screen / resulting rubric)
+
+
+\subsection{Student Workflow}
+When a student accesses their course page, they are presented with a list of
+open and closed assignments. A closed assignment is one which a student
+is no longer allowed to submit deliverables.
+Accessing an assignment page brings the student,
+to a dashboard showing all of the work they have submitted, any reviews
+they have completed and any reviews which they have received on their own work.
+In addition, a student accessing an open assignment is presented with the next
+action they must complete to make progress on the assignment: submit a 
+deliverable or complete reviews. If a students has finished all steps on an
+assignment, they are told they have nothing left to do on this assignment.
+
+(TODO: Assignment dashboard figure)
 
 \section{Conclusions}
 To be completed

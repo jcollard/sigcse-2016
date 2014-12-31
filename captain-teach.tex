@@ -96,7 +96,14 @@ one who did all the really hard work.}\\
 
 \maketitle
 \begin{abstract}
-To be completed
+Previously an in-flow peer review tool named Captain Teach was created for use 
+in two courses at Brown. Captain Teach focused on creating an environment for
+performing peer review on assignments that are still in progress.  
+The tool was dependent on the Pyret programming language and was designed for 
+a very specific workflow. This paper describes Captain Teach 2.0, the second 
+iteration of this in-flow peer review tool which is a language independent tool 
+that utilizes YAML assignment descriptions which can be used to configure various
+linear assignment workflows. 
 \end{abstract}
 
 % A category with the (minimum) three required fields
@@ -108,7 +115,7 @@ To be completed
 To be completed
 
 
-\section{Assignment Workflows}
+\section{Captain Teach Workflows}
 Captain Teach is designed to be used on assignments which have multiple
 deliverables. Each deliverable is decomposed into a submission step typically
 followed by a student reviewing one or more other submissions before being
@@ -140,7 +147,8 @@ they have completed and any reviews which they have received on their own work.
 In addition, a student accessing an open assignment is presented with the next
 action they must complete to make progress on the assignment: submit a 
 deliverable or complete reviews. If a students has finished all steps on an
-assignment, they are told they have nothing left to do on this assignment. (TODO: Assignment dashboard figure)
+assignment, they are told they have nothing left to do on this assignment. 
+TODO: Assignment dashboard figure)
 
 After submitting a deliverable for a step, students will be given any
 reviews that the instructor has specified. The assigned reviews are anonymous
